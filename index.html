@@ -12,25 +12,126 @@
       href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/ba05dc2ace.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ba05dc2ace.js"
       crossorigin="anonymous"
     ></script>
     <title>Stefanie C. Anselmi - Front-end developer - Home Page</title>
     <link href="/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Let's start coding my website! Home page</h1>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light change-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Stefanie C. Anselmi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects.html">My work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/animation.html">Animation</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#contactEmail">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="intro text-center">
+      <span>Hello, I'm </span><br />
+      <img src="/img/ricoiofinish.png" class="img-fluid logo" alt="myworks" />
+      <h1 class="myname">Stefanie!</h1>
+      <h2>Front-end developer based on Switzerland</h2>
+      <a href="/" class="btn btn-contact">Contact me</a>
+    </div>
+    <div class="container-sm text-center content">
+      <div class="row">
+        <div class="col-sm">
+          <h2>Home page</h2>
+          <h3>Have a look at my job</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="/img/weather.png" class="img-fluid" alt="myworks" />
+        </div>
+        <div class="col-sm-6">
+          <h2>My work</h2>
+          <p>Web developer - Front-end</p>
+          <a href="/projects.html" class="btn btn-general"
+            >Look at my projects</a
+          >
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>My animation</h2>
+          <p>some animation 3D, posing test, drawings.</p>
+          <a href="/animation.html" class="btn btn-general"
+            >Look at my animation 3D, poses and drawings.</a
+          >
+        </div>
+        <div class="col-sm-6">
+          <img src="/img/weather.png" alt="myworks" class="img-fluid" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="/img/weather.png" class="img-fluid" alt="myworks" />
+        </div>
+        <div class="col-6">
+          <h2>About me</h2>
+          <p>
+            Come and give a look at my Curriculum Vitae and find more about my
+            passion and hobby!
+          </p>
+          <a href="/about.html" class="btn btn-general">Look at my projects</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm contact">
+          <h2>Contact me at stefaniecristinaanselmi@gmail.com</h2>
+          <h2 id="instagram">Instagram soon...</h2>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
