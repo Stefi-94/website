@@ -8,7 +8,6 @@ html {
 body {
   font-family: "Londrina Solid", cursive;
   display: block;
-
   color: rgb(75, 0, 90);
   max-width: 100%;
   margin: 0 auto;
@@ -37,8 +36,7 @@ p {
 .intro span {
   font-size: 80px;
 }
-.btn-contact,
-.btn-general {
+.btn-contact {
   margin: 20px;
   font-size: 40px;
   border-radius: 10px;
@@ -46,8 +44,7 @@ p {
   color: rgb(220, 204, 235);
   transition: all 200ms ease-in-out;
 }
-.btn-contact:hover,
-.btn-general:hover {
+.btn-contact:hover {
   font-size: 50px;
   background-color: rgb(220, 204, 235);
   color: rgb(139, 139, 245);
@@ -67,7 +64,10 @@ p {
   background-color: rgb(220, 204, 235);
   color: rgb(139, 139, 245);
 }
-
+.border-round {
+  border-radius: 30px;
+  width: 60%;
+}
 .content {
   max-width: 80%;
   height: auto;
@@ -89,6 +89,9 @@ p {
   display: block;
   margin: 0px auto;
   padding: 80px;
+}
+.contact h2 {
+  font-size: 50px;
 }
 #instagram {
   font-style: italic;
