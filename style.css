@@ -67,6 +67,8 @@ p {
 .border-round {
   border-radius: 30px;
   width: 60%;
+  display: block;
+  margin: 0 auto;
 }
 .content {
   max-width: 80%;
@@ -95,4 +97,28 @@ p {
 }
 #instagram {
   font-style: italic;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2,
+  .intro span {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  p,
+  .contact h2 {
+    font-size: 20px;
+  }
+  content {
+    padding: 20px;
+  }
+  .logo {
+    width: 80%;
+  }
 }
