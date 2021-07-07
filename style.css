@@ -3,6 +3,9 @@
   --second-color: rgb(212, 212, 255);
   --third-color: rgb(220, 204, 235);
   --fort-color: rgb(139, 139, 245);
+  --m-p-30: 30px;
+  --m-p-50: 50px;
+  --m-p-20: 20px;
 }
 html {
   font-family: "Londrina Solid", cursive;
@@ -24,13 +27,13 @@ h1 {
 
 h2 {
   font-size: 80px;
-  padding-top: 30px;
+  padding-top: var(--m-p-30);
 }
 h3 {
   padding-bottom: 100px;
 }
 p {
-  font-size: 30px;
+  font-size: var(--m-p-30);
 }
 .intro {
   max-height: 1000px;
@@ -43,7 +46,7 @@ p {
   font-size: 80px;
 }
 .btn-contact {
-  margin: 20px;
+  margin: var(--m-p-20);
   font-size: 40px;
   border-radius: 10px;
   background-color: var(--third-color);
@@ -51,14 +54,14 @@ p {
   transition: all 200ms ease-in-out;
 }
 .btn-contact:hover {
-  font-size: 50px;
+  font-size: var(--m-p-50);
   background-color: var(--fort-color);
   color: var(--third-color);
 }
 
 .btn-general {
-  margin: 20px;
-  font-size: 20px;
+  margin: var(--m-p-20);
+  font-size: var(--m-p-20);
   border-radius: 10px;
   background-color: var(--third-color);
   color: var(--fort-color);
@@ -71,13 +74,13 @@ p {
   color: var(--third-color);
 }
 .border-round {
-  border-radius: 30px;
+  border-radius: var(--m-p-30);
   width: 60%;
   display: block;
   margin: 0 auto;
 }
 .content {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0px auto;
@@ -99,7 +102,7 @@ p {
   padding: 80px;
 }
 .contact h2 {
-  font-size: 50px;
+  font-size: var(--m-p-50);
 }
 #instagram {
   font-style: italic;
@@ -108,7 +111,7 @@ p {
 /*****aboutpage******/
 .about-section h1 {
   padding-top: 80px;
-  padding-bottom: 20px;
+  padding-bottom: var(--m-p-20);
 }
 .about-section h3 {
   font-size: 40px;
@@ -118,7 +121,7 @@ p {
   padding-top: 0;
 }
 .about-section p {
-  font-size: 20px;
+  font-size: var(--m-p-20);
 }
 .about-section img {
   width: 100%;
@@ -129,7 +132,7 @@ p {
   background-color: var(--third-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  border-radius: 20px;
+  border-radius: var(--m-p-20);
   padding: 5px 40px;
 }
 .btn-github:hover {
@@ -137,15 +140,21 @@ p {
   color: var(--third-color);
 }
 .curriculum {
-  margin: 20px;
+  margin: var(--m-p-20);
 }
+
+/******work******/
+.content img {
+  border-radius: 40px;
+}
+/***mobile***/
 @media (max-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: var(--m-p-50);
   }
   h2,
   .intro span {
-    font-size: 30px;
+    font-size: var(--m-p-30);
   }
   h3 {
     font-size: 25px;
@@ -154,10 +163,10 @@ p {
 
   p,
   .contact h2 {
-    font-size: 20px;
+    font-size: var(--m-p-20);
   }
   content {
-    padding: 20px;
+    padding: var(--m-p-20);
   }
   .logo {
     width: 80%;
@@ -165,16 +174,16 @@ p {
 
   /****about****/
   .about-section h1 {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: var(--m-p-50);
+    padding-bottom: var(--m-p-20);
   }
   .about-section h3 {
-    font-size: 20px;
+    font-size: var(--m-p-20);
     padding: 0;
   }
   .about-section h2 {
     padding-top: 0;
-    font-size: 30;
+    font-size: var(--m-p-30);
   }
   .about-section p {
     font-size: 15px;
