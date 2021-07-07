@@ -1,3 +1,9 @@
+:root {
+  --primary-color: rgb(75, 0, 90);
+  --second-color: rgb(212, 212, 255);
+  --third-color: rgb(220, 204, 235);
+  --fort-color: rgb(139, 139, 245);
+}
 html {
   font-family: "Londrina Solid", cursive;
   width: 100%;
@@ -8,7 +14,7 @@ html {
 body {
   font-family: "Londrina Solid", cursive;
   display: block;
-  color: rgb(75, 0, 90);
+  color: var(--primary-color);
   max-width: 100%;
   margin: 0 auto;
 }
@@ -29,7 +35,7 @@ p {
 .intro {
   max-height: 1000px;
   width: 100%;
-  background-color: rgb(212, 212, 255);
+  background-color: var(--second-color);
   padding: 140px;
   margin: 0px auto;
 }
@@ -40,29 +46,29 @@ p {
   margin: 20px;
   font-size: 40px;
   border-radius: 10px;
-  background-color: rgb(139, 139, 245);
-  color: rgb(220, 204, 235);
+  background-color: var(--third-color);
+  color: var(--fort-color);
   transition: all 200ms ease-in-out;
 }
 .btn-contact:hover {
   font-size: 50px;
-  background-color: rgb(220, 204, 235);
-  color: rgb(139, 139, 245);
+  background-color: var(--fort-color);
+  color: var(--third-color);
 }
 
 .btn-general {
   margin: 20px;
   font-size: 20px;
   border-radius: 10px;
-  background-color: rgb(139, 139, 245);
-  color: rgb(220, 204, 235);
+  background-color: var(--third-color);
+  color: var(--fort-color);
   transition: all 200ms ease-in-out;
 }
 
 .btn-general:hover {
   font-size: 25px;
-  background-color: rgb(220, 204, 235);
-  color: rgb(139, 139, 245);
+  background-color: var(--fort-color);
+  color: var(--third-color);
 }
 .border-round {
   border-radius: 30px;
@@ -84,7 +90,7 @@ p {
   display: inline;
 }
 .change-nav {
-  background-color: rgb(220, 204, 235) !important;
+  background-color: var(--third-color) !important;
   font-size: 25px;
 }
 .contact {
@@ -97,6 +103,41 @@ p {
 }
 #instagram {
   font-style: italic;
+}
+
+/*****aboutpage******/
+.about-section h1 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.about-section h3 {
+  font-size: 40px;
+  padding: 0;
+}
+.about-section h2 {
+  padding-top: 0;
+}
+.about-section p {
+  font-size: 20px;
+}
+.about-section img {
+  width: 100%;
+  border-radius: 40px;
+}
+.btn-github {
+  text-decoration: none;
+  background-color: var(--third-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+  padding: 5px 40px;
+}
+.btn-github:hover {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+}
+.curriculum {
+  margin: 20px;
 }
 @media (max-width: 768px) {
   h1 {
@@ -120,5 +161,25 @@ p {
   }
   .logo {
     width: 80%;
+  }
+
+  /****about****/
+  .about-section h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .about-section h3 {
+    font-size: 20px;
+    padding: 0;
+  }
+  .about-section h2 {
+    padding-top: 0;
+    font-size: 30;
+  }
+  .about-section p {
+    font-size: 15px;
+  }
+  .btn-github {
+    padding: 5px 10px;
   }
 }
