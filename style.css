@@ -149,7 +149,12 @@ p {
 }
 /***mobile***/
 @media (max-width: 768px) {
+  .myname {
+    padding: 0;
+    font-size: var(--m-p-50);
+  }
   h1 {
+    margin-top: 50px;
     font-size: var(--m-p-50);
   }
   h2,
