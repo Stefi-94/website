@@ -120,10 +120,7 @@ nav a:hover,
 .myname {
   display: inline;
 }
-.change-nav {
-  background-color: var(--third-color) !important;
-  font-size: 25px;
-}
+
 .contact {
   display: block;
   margin: 0px auto;
@@ -173,7 +170,11 @@ i:hover {
 .curriculum {
   margin: var(--m-p-20);
 }
+/**animatio***/
 
+video {
+  padding: 50px 0px 0px 0px;
+}
 /******work******/
 .content img {
   border-radius: 40px;
