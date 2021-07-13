@@ -242,4 +242,11 @@ footer a:hover {
   .btn-github {
     padding: 5px 10px;
   }
+  .btn-contact {
+    font-size: 30px;
+    margin: 0;
+  }
+  .btn-contact:hover {
+    font-size: 40px;
+  }
 }
