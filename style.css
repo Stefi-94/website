@@ -36,7 +36,8 @@ p {
   font-size: var(--m-p-30);
 }
 /*nav**/
-#navi {
+#navi,
+footer {
   background-color: var(--third-color);
 }
 nav {
@@ -134,7 +135,9 @@ nav a:hover,
 #instagram {
   font-style: italic;
 }
-
+i:hover {
+  color: var(--third-color);
+}
 /*****aboutpage******/
 .about-section h1 {
   padding-top: 80px;
@@ -153,6 +156,7 @@ nav a:hover,
 .about-section img {
   width: 100%;
   border-radius: 40px;
+  padding: 20px 0px;
 }
 .btn-github {
   text-decoration: none;
@@ -174,6 +178,15 @@ nav a:hover,
 .content img {
   border-radius: 40px;
 }
+footer {
+  margin: 0px 0px;
+  padding: 20px 0px;
+}
+footer i:hover,
+footer a:hover {
+  color: black;
+}
+
 /***mobile***/
 @media (max-width: 768px) {
   .myname {
