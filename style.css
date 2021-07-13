@@ -35,6 +35,33 @@ h3 {
 p {
   font-size: var(--m-p-30);
 }
+/*nav**/
+#navi {
+  background-color: var(--third-color);
+}
+nav {
+  padding: 20px 0;
+  font-size: 25px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  line-height: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(134, 134, 134);
+}
+nav a:hover,
+.active {
+  color: var(--primary-color);
+}
+
 .intro {
   max-height: 1000px;
   width: 100%;
@@ -172,6 +199,10 @@ p {
   }
   content {
     padding: var(--m-p-20);
+  }
+  nav {
+    padding: 20px 0;
+    font-size: 15px;
   }
   .logo {
     width: 80%;
