@@ -181,6 +181,7 @@ i:hover {
 footer {
   margin: 0px 0px;
   padding: 20px 0px;
+  clear: both;
 }
 footer i:hover,
 footer a:hover {
