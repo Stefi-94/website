@@ -35,6 +35,9 @@ h3 {
 p {
   font-size: var(--m-p-30);
 }
+img {
+  pointer-events: none;
+}
 /*nav**/
 #navi,
 footer {
@@ -170,7 +173,11 @@ i:hover {
 .curriculum {
   margin: var(--m-p-20);
 }
-/**animatio***/
+#infoCV{
+  font-size:11px; 
+  font-style: italic;
+}
+/**animation***/
 
 video {
   padding: 50px 0px 0px 0px;
